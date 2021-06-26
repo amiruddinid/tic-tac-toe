@@ -20,4 +20,4 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         AWS_REGION: ap-southeast-1 # optional: defaults to us-east-1
         DEST_DIR: tic-tac-toe
-        SOURCE_DIR: public # optional: defaults to public
+        SOURCE_DIR: build # optional: defaults to public
